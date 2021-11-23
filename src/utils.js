@@ -100,7 +100,6 @@ export const createColorScheme = (H) => {
     '800': l > 80 && l < 90 ? principaleColor : convertHSLToHex(h, s, 90),
     '900': l > 90 && l < 100 ? principaleColor : convertHSLToHex(h, s, 95),
   }
-  console.log(principaleColor)
 
   return colorScheme
 }
